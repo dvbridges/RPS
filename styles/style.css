@@ -1,0 +1,89 @@
+.container {
+  font-family: 'Press Start 2P', cursive;
+	height: 95%;
+}
+
+.vl {
+	border-left: 3px dotted grey;
+  height: 200px;
+	position: absolute;
+  left: 50%;
+  top: 10px;
+}
+
+.score-container {
+  display: flex;
+	background-color: pink;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	height: 100px;
+}
+
+p {
+  margin: 30px;
+}
+
+.score {
+	margin: 10px;
+	font-size: 40px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.battle-zone-container {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background-color: lightblue;
+}
+
+.arena {
+	margin: 10px;
+	height: 100px;
+	width: 195px;
+	outline: none;
+  font-family: 'Press Start 2P', cursive;
+	font-size: 35px;
+	text-align: center;
+}
+
+.action-container {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	height: 150px;
+	background-color: lemonchiffon;
+}
+
+.action-button {
+	margin: 10px;
+	height: 100px;
+	width: 200px;
+	outline: none;
+  font-family: 'Press Start 2P', cursive;
+	font-size: 35px;
+	background-color: white;
+}
+
+.play-container {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ccff99;
+}
+
+.play-button {
+	margin: 10px;
+	height: 100px;
+	width: 200px;
+	outline: none;
+  font-family: 'Press Start 2P', cursive;
+	font-size: 35px;
+	color: green;
+}
